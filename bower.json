@@ -1,0 +1,23 @@
+{
+  "name": "require",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "rdp <shareef@sulopa.in>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "materialize": "^0.97.8",
+    "lodash": "^4.17.4",
+    "handlebars": "^4.0.5"
+  }
+}

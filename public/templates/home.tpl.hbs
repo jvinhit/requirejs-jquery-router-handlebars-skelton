@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>This is Home page</h1>
+
+    <div class="row">
+        <div class="col s6">
+            <ul>
+                <li><a class="route-handler" href="/home"> Home</a></li>
+                <li><a class="route-handler" href="/dashboard"> Dashboard</a></li>
+                <li><a class="route-handler" href="/test"> Test</a></li>
+            </ul>
+        </div>
+        <div class="col s6">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Name</th>
+                        <th> Place</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#each users}}
+                <tr>
+                    <td> {{name}}</td>
+                    <td> {{place}}</td>
+                </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

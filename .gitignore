@@ -1,0 +1,7 @@
+.idea/
+.idea/*.*
+node_modules/
+public/components/materialize/test/
+public/components/jquery/src/
+public/components/jquery/external/
+public/components/handlebars/lib/
